@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Zeke Shore</title>
+        <link rel="stylesheet" href="Zeke Shore STYLING.css">
+    </head>
+    <body>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#HOME">HOME</a></li>
+                <li><a href="#ABOUT">ABOUT</a></li>
+                <li><a href="#CONTACT">CONTACT</a></li>
+                <!--Here I learnt how to link a specific part of a page to the buttons in my menu bar.
+                    I learnt this on this website: https://www.w3schools.com/html/html_links.asp
+                    The 'Contact' button doesn't lead to anything when I press it, though, despite me including a section for it at the bottom of the page.-->
+            </ul>
+        </nav>
+
+        <section id="HOME">
+            <div class="main">
+                <h1 class="headings">ZEKE <br> SHORE</h1>
+                <!--I learnt how to use the line break element with this website: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/br
+                It helped me to make everything fit how I wanted it to.
+            However, I put it in black in my first draft of the website and when I try to switch it to white to suit the new colour I've added,
+        I hit a wall. I can change colours of other text except this and I can't identify why, leaving the home page looking quite off. Update: figured out a way to change the colour,
+        but then it effects the colour of the rest of the website's body.-->
+                <button class="btn">
+                    Learn More
+                </button>
+            </div>
+        </section>
+
+        <main>
+            <div class="center-image">
+                <img src="Zeke S Portrait.png" alt="landscape vertical" class="img1">
+                <!--I had difficulty inserting this image. At first, it wouldn't display on the site,
+                    but after trial and error, I found that pasting the 'relative path' of the URL rather than the normal path made it work-->
+            </div>
+        </main>
+
+        <section id="ABOUT">
+            <h1 class="headings">ABOUT</h1>
+            <div class="row">
+                <div class="box">
+                    <img src="R (2).png" alt="">
+                    <!--This image looks slightly narrow but if I change it to suit it, it will change all the other pictures too as I have aligned
+                    them to do the same thing in CSS-->
+                   <h1 class="headings">About <br> Zeke</h1>
+                   <p>Zeke has been designing and building digital experiences for 18 years,
+                    working with startups, design studios, and directly with larger
+                    companies. After studying Design and Technology at Parsons School of
+                    Design, he started the digital design studio Type/Code in 2010. </p>
+                    <!--It would be better to include more information but his social media doesn't really provide me with much.
+                    Text copied from Zeke Shore's LinkedIn-->
+                </div>
+                <div class="box">
+                    <img src="Black Elegant Modern Name Initials Monogram Logo.png" alt="">
+                    <!--I made this logo using Canva-->
+                    <h1 class="headings">Services</h1>
+                    <p>
+                        <ul>
+                            <li>User Experience Design (UED)</li>
+                            <li>Web Design</li>
+                            <li>Interaction Design</li>
+                            <li>Web Development</li>
+                            <li>Graphic Design</li>
+                            <li>UX Research</li>
+                            <li>Visual Design</li>
+                            <li>Brand Design</li>
+                            <!--Here I used what I had learnt of listing to list these services neatly.
+                            Beforehand, they had been in dissarray.
+                            Text copied from Zeke Shore's LinkedIn-->
+                        </ul>
+                    </p>
+                 </div>
+                 <div class="box">
+                    <img src="vault.jpg" alt="">
+                    <h1 class="headings">Creation <br> Vault</h1>
+                    <p>
+                    <ul>
+                        <li>Type/Code (Founder)</li>
+                        <li>Datasupply.co</li>
+                        <li>Itsalmo.st</li>
+                        <li>Screensiz.es</li>
+                    </ul>
+                </p>
+                 </div>
+            </div>
+        </section>
+        
+        <section id="contact">
+            <h1 class="headings">CONTACT</h1>
+            <form action="" class="form">
+                <input type="text" name="name" class="input" placeholder="Type Your Name...">
+                <input type="email" name="email" class="input" placeholder="Type Your Email...">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Type Your Email..."></textarea>
+                <input type="submit" value="SEND" id="send">
+                <!--The send button in my contact section keeps getting cut off-->
+            </form>
+        </section>
+

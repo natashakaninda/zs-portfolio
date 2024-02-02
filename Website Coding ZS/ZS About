@@ -1,0 +1,28 @@
+        <section id="ABOUT">
+            <h1 class="headings">ABOUT</h1>
+            <div class="row">
+                <div class="box">
+                    <img src="" alt="">
+                   <h1 class="headings">About <br> Zeke</h1>
+                   <p>Zeke has been designing and building digital experiences for 18 years,
+                    working with startups, design studios, and directly with larger
+                    companies. After studying Design and Technology at Parsons School of
+                    Design, he started the digital design studio Type/Code in 2010. </p>
+                </div>
+                <div class="box">
+                    <img src="Black Elegant Modern Name Initials Monogram Logo.png" alt="">
+                    <h1 class="headings">Services</h1>
+                    <p>User Experience Design (UED), Web Design, Interaction Design,
+                     Web Development, Graphic Design, UX Research, Visual Design,
+                     Brand Design. </p>
+                 </div>
+                 <div class="box">
+                    <img src="" alt="">
+                    <h1 class="headings">Creation <br> Vault</h1>
+                    <p>Type/Code (Founder)
+                    Datasupply.co 
+                    Itsalmo.st 
+                    Screensiz.es </p>
+                 </div>
+            </div>
+        </section>
